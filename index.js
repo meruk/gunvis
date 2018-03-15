@@ -1,5 +1,6 @@
 const {ipcRenderer} = require('electron')
 
+console.log('laod Complete')
 ipcRenderer.on('saySomething', (event, args) => {
 alert(args)
   var synth = window.speechSynthesis;
