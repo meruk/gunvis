@@ -1,0 +1,19 @@
+{
+  "name": "gunvis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meruk/gunvis.git"
+  },
+  "author": "meruk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meruk/gunvis/issues"
+  },
+  "homepage": "https://github.com/meruk/gunvis#readme"
+}
