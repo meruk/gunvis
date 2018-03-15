@@ -3,7 +3,7 @@ const {ipcRenderer} = require('electron')
 console.log('laod Complete')
 ipcRenderer.on('saySomething', (event, args) => {
   var synth = window.speechSynthesis;
-  var voice = synth.getVoices()[0]
+  var voice = synth.getVoices()[13]
   var utterThis = new SpeechSynthesisUtterance(args);
   utterThis.voice = voice
   utterThis.pitch = 1
